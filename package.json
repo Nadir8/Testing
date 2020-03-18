@@ -1,0 +1,17 @@
+{
+  "name": "saagieapitesting",
+  "version": "1.0.0",
+  "description": "Api testing for Saagie technical interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'src/tests/**/*.tests.js'"
+  },
+  "author": "Nadir Boumaraf",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.0",
+    "mocha-tags": "^1.0.1"
+  }
+}
